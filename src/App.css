@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #101116;
+  flex-direction: column; /* Main axis direction: top to bottom */
+}
+
+:root {
+  font-family: "Roboto";
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.Sidebar {
+  flex: 0 0 auto; /* Sidebar takes up its content width */
+}
+
+.PhoneList {
+  flex: 1; /* PhoneList takes up remaining width */
+}

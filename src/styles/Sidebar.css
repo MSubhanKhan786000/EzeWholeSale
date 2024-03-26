@@ -1,0 +1,46 @@
+.Sidebar {
+  height: 120vh;
+  width: 200px;
+  background-color: #1e242f;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.categoryList {
+  padding-top: 0;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.slider {
+  width: 90%;
+  height: 2px;
+  background-color: #fff;
+  margin: 0 10px 10px 10px;
+  /* font-size: 13px; */
+}
+
+.slider .thumb {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  top: -4px;
+}
+
+.track-1 {
+  background-color: #fff;
+}
+
+.values {
+  margin: 0;
+  color: #fff;
+}
+#vertical-line {
+  width: 2px;
+  height: 30px;
+  background-color: #fff;
+  margin-left: 100px;
+}
